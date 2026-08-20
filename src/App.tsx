@@ -4,6 +4,7 @@ import { AddNote } from "./components/AddNote";
 import Calender from "./components/Calender";
 import { MoodStats } from "./components/MoodStats";
 import Mood from "./components/mood";
+import Userprofiles from "./components/Userprofiles";
 
 type Note = { id: string; date: string; text: string };
 
@@ -33,6 +34,7 @@ function App() {
         <MoodStats counts={moodCounts} />
         <AddNote onAdd={addNote} notes={notes} />
         <Calender moodList={notes} theme="" />
+        <Userprofiles counts={moodCounts} />
       </div>
     </div>
   );
