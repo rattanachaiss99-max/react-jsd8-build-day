@@ -2,6 +2,7 @@ import { useState } from "react";
 import "./App.css";
 import { AddNote } from "./components/AddNote";
 import Calender from "./components/Calender";
+import { MoodStats } from "./components/MoodStats";
 
 type Note = { id: string; date: string; text: string };
 
@@ -19,6 +20,7 @@ function App() {
 
   return (
     <>
+      <MoodStats />
       <AddNote onAdd={addNote} notes={notes} />
       <Calender moodList={notes} />
     </>
