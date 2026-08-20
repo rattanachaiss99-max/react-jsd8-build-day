@@ -1,10 +1,10 @@
 import { useState } from 'react'
 
 const MOODS = [
-  { id: 'happy', label: 'Happy', value: 5, emoji: '😊' },
-  { id: 'ok', label: 'OK', value: 4, emoji: '🙂' },
-  { id: 'sad', label: 'Sad', value: 3, emoji: '😔' },
-  { id: 'angry', label: 'Angry', value: 2, emoji: '😠' },
+  { id: 'happy', label: 'Happy', value: 5, emoji: '😄' },
+  { id: 'ok', label: 'OK', value: 4, emoji: '😐' },
+  { id: 'sad', label: 'Sad', value: 3, emoji: '🥺' },
+  { id: 'angry', label: 'Angry', value: 2, emoji: '😡' },
   { id: 'tired', label: 'Tired', value: 1, emoji: '😴' },
 ]
 
